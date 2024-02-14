@@ -49,8 +49,13 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    //lotty animations dependencies
+    //dependencies for the retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
 
+    //dependencies for the gson converter
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    //lotty animations dependencies
     implementation("com.airbnb.android:lottie:6.3.0")
 
 }
